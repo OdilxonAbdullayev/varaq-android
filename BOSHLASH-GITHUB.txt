@@ -1,0 +1,17 @@
+VARAQ — GITHUBGA YUKLASH (MUHIM)
+
+1. ZIP arxivni Extract All bilan oching.
+2. GitHub'da YANGI PUBLIC repository yarating (README qo'shmang).
+3. Repository > Code > uploading an existing file.
+4. ZIPning o'zini EMAS, chiqarilgan ichidagi BARCHA fayl va papkalarni yuklang.
+   Ayniqsa app/ va .github/workflows/ papkalari majburiy.
+   Brauzer papkani qabul qilmasa, Chrome orqali papkalarni tortib tashlang
+   yoki GitHub Desktop bilan loyiha papkasini publish qiling.
+5. Commit changes.
+6. Tekshiring: https://github.com/USERNAME/REPO/tree/main/app
+7. Actions > VARAQ - Android APK.
+8. Build Success bo'lsa Artifacts > VARAQ-Android-debug-APK.
+
+DIQQAT: Bu Kotlin/Compose loyiha manba kodi, APK emas.
+APK yig'ilishi real serverda hali muvaffaqiyatli tekshirilmagan.
+Agar Failure bo'lsa, qizil qadamdagi logni yuboring.

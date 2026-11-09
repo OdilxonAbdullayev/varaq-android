@@ -1,0 +1,118 @@
+{
+  "format": "VARAQ-BACKUP",
+  "version": 1,
+  "exportedAt": 1794132883030,
+  "settings": {
+    "name": "Kitobxon",
+    "dailyGoal": 20,
+    "annualGoal": 12,
+    "darkMode": false,
+    "founder": false
+  },
+  "books": [
+    {
+      "id": 1,
+      "title": "O‘tkan kunlar",
+      "author": "Abdulla Qodiriy",
+      "totalPages": 320,
+      "currentPage": 126,
+      "status": "READING",
+      "genre": "O‘zbek adabiyoti",
+      "coverBase64": "",
+      "rating": 0,
+      "review": "",
+      "createdAt": 1793096083030,
+      "startedAt": 1793528083030,
+      "finishedAt": null,
+      "updatedAt": 1794132883030
+    },
+    {
+      "id": 2,
+      "title": "Atom odatlar",
+      "author": "James Clear",
+      "totalPages": 320,
+      "currentPage": 320,
+      "status": "FINISHED",
+      "genre": "Shaxsiy rivojlanish",
+      "coverBase64": "",
+      "rating": 5,
+      "review": "Kichik odatlar doimiy natijalarga olib borishini yodda tutdim.",
+      "createdAt": 1788948883030,
+      "startedAt": 1790244883030,
+      "finishedAt": 1793873683030,
+      "updatedAt": 1793873683030
+    },
+    {
+      "id": 3,
+      "title": "Mehrobdan chayon",
+      "author": "Abdulla Qodiriy",
+      "totalPages": 300,
+      "currentPage": 0,
+      "status": "WISHLIST",
+      "genre": "Badiiy",
+      "coverBase64": "",
+      "rating": 0,
+      "review": "",
+      "createdAt": 1793960083030,
+      "startedAt": null,
+      "finishedAt": null,
+      "updatedAt": 1793960083030
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "kind": "THOUGHT",
+      "text": "Hikoya qahramonlarining qarorlari haqida o‘ylab ko‘rdim.",
+      "page": 115,
+      "createdAt": 1793960083030
+    },
+    {
+      "id": 2,
+      "bookId": 2,
+      "kind": "THOUGHT",
+      "text": "Har kuni 20 daqiqa mutolaa qilishni odatga aylantiraman.",
+      "page": 204,
+      "createdAt": 1793700883030
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "startedAt": 1794131683030,
+      "finishedAt": 1794132883030,
+      "startPage": 102,
+      "endPage": 126,
+      "durationMillis": 1200000
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "startedAt": 1794044683030,
+      "finishedAt": 1794046483030,
+      "startPage": 84,
+      "endPage": 102,
+      "durationMillis": 1800000
+    },
+    {
+      "id": 3,
+      "bookId": 1,
+      "startedAt": 1793957383030,
+      "finishedAt": 1793960083030,
+      "startPage": 60,
+      "endPage": 84,
+      "durationMillis": 2700000
+    },
+    {
+      "id": 4,
+      "bookId": 2,
+      "startedAt": 1793870383030,
+      "finishedAt": 1793873683030,
+      "startPage": 291,
+      "endPage": 320,
+      "durationMillis": 3300000
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "VARAQ — Kitobxonning shaxsiy olami",
+  "short_name": "VARAQ",
+  "description": "Qog‘oz kitoblar uchun kutubxona va kundalik",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F7F3EB",
+  "theme_color": "#263F36",
+  "lang": "uz",
+  "icons": [
+    {
+      "src": "./icons/varaq-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/varaq-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

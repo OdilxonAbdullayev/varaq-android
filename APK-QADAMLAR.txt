@@ -1,0 +1,11 @@
+VARAQ 1.1: GitHub'dan Android Studio va kompyuterdagi Android SDK'siz APK yaratish
+
+1) https://github.com/new sahifasini oching. Nomi: varaq-android; Public; README/.gitignore/license belgilanmasin. Create repository.
+2) VARAQ-GitHub-Upload.zip faylini kompyuterga yuklab oling va EXTRACT ALL bilan chiqarib oling. ZIP'ni GitHub'ga shundoq yuklamang.
+3) ZIP ichidagi VARAQ-GITHUB-APK fayllari (app, .github, gradle, docs, tests, web, build.gradle.kts va boshqalar) repository ildizida turishi kerak. GitHub'da Add file -> Upload files -> shu fayl va papkalarni sudrab qo'ying. Agar .github ko'rinmasa, Windows Explorer -> View -> Show -> Hidden items ni yoqing.
+4) Commit changes (odatda 'Commit directly to the main branch'). GitHub'ning Actions sahifasini oching. 'VARAQ - Android APK' workflow push bilan o'zi ishga tushadi. Aks holda Actions -> 'VARAQ - Android APK' -> Run workflow -> main -> Run workflow.
+5) Build muvaffaqiyatli bo'lsa: Actions -> muvaffaqiyatli ish -> Artifacts -> VARAQ-Android-debug-APK ni yuklab oling. Yuklab olingan artifact ZIP ichida app-debug.apk fayli bor.
+6) app-debug.apk ni Android telefoningizga yuboring, Files -> APK ni oching; Android telefoningizda kerak bo'lsa 'Install unknown apps' ruxsatini shu faylni ochgan ilova uchun bering. APK'ni faqat o'zingiz yaratgan va ishongan manbadan o'rnating.
+7) Xato bo'lsa: Actions -> qizil X bilan belgilangan build -> fail bo'lgan step (masalan 'Build debug APK') -> xato matnini nusxalang va ChatGPT'ga yuboring. Parol, token yoki maxfiy ma'lumot yubormang.
+
+DIQQAT: apk hali GitHub serverida yig'ilmagan va fizik Android telefonida tekshirilmagan. Birinchi urinishda compile xatosi bo'lishi mumkin; shunda logdan tuzatish kerak. Repo public bo'lganda kod ham ommaga ochiq bo'ladi.
