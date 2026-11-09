@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "uz.varaq.app"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "uz.varaq.app"
